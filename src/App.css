@@ -1,3 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+html{
+  background-color: #343434;
+  ;
+}
+
+#root{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+
+  font-family: 'Joan', serif;
+}
+
+#root > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  color: #fff;
+}
+
+h3{
+  position:absolute;
+  margin-left: 600px;
+  font-size: 100px;
+  color: #fff;
+}
+
+.camera{
+  width: 600px;
+  height: 480px;
+  border-radius: 10px;
+  border: white solid 4px;
+  margin-right: 40vw;
+}
+
+.caption{
+  font-size: 3em;
+  color: white;
+  margin-top: 0;
+}
+
+
+.start{
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 50vw;
+  margin-bottom: 250px;
+  font-size: 90px;
+}
+
+.start2{
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 50vw;
+  margin-top: 250px;
+  font-size: 80px;
+}
+
+h1{
+  position:absolute;
+  margin-bottom: 90vh;
+  color: white;
+  font-size: 15vh;
+}
+
+button{
+  font-family: 'Joan', serif;
+  font-weight: bold;
+}
+
+.questions{
+  position: absolute;
+  font-size: 400px;
+  padding-left: 700px;
+}
+
 .App {
   text-align: center;
 }
